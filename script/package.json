@@ -1,0 +1,4 @@
+"scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+},
