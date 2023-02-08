@@ -15,7 +15,27 @@
           console.log('0');
           this.check -= 1;
           this.menu.style.transform = 'translate(120vh,0)';
-          this.button.innerHTML = `<img src="images/b.svg">`
+          this.button.innerHTML = `<img src="images/b.svg">`;
+          if (menuChooseAdaptive.firstCheckMenu == 1)  {
+            menuChooseAdaptive.firstButton.style.height = '9%';
+            menuChooseAdaptive.firstCheckMenu -= 1;
+          };
+          if (menuChooseAdaptive.threeCheckMenu == 1)  {
+            menuChooseAdaptive.threeButton.style.height = '9%';
+            menuChooseAdaptive.threeCheckMenu -= 1;
+          };
+          if (menuChooseAdaptive.fourCheckMenu == 1)  {
+            menuChooseAdaptive.fourButton.style.height = '9%';
+            menuChooseAdaptive.fourCheckMenu -= 1;
+          };
+          if (menuChooseAdaptive.fiveCheckMenu == 1)  {
+            menuChooseAdaptive.fiveButton.style.height = '9%';
+            menuChooseAdaptive.fiveCheckMenu -= 1;
+          };
+          if (menuChooseAdaptive.secondCheckMenu == 1)  {
+            menuChooseAdaptive.secondButton.style.height = '9%';
+            menuChooseAdaptive.secondCheckMenu -= 1;
+          };
         }
     }
   };
